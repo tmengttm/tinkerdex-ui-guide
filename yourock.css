@@ -29,7 +29,7 @@ header .logo{
 }
 
 .section-files a{
-	display:block;
+	/*display:block;*/
 	margin:5px 0;
 }
 
@@ -39,6 +39,7 @@ header .logo{
 	height: 450px;
 	
 }
+
 
 /* ==========================================================================
   	3. Style for dashboard 
@@ -132,7 +133,7 @@ header .logo{
 
 
 /* Small text's color on the left half of card */
-small{
+.section-dashboard small{
 	font-size:12px;
 	display: block;
 	
