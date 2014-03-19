@@ -1,0 +1,393 @@
+body{
+	font-family: 'Istok Web', sans-serif;
+	font-size: 18px;
+	line-height: 1.72222;
+	color: #34495e;
+}
+
+
+.container{
+	width: 970px;
+	margin:auto;
+}
+
+header{
+	padding: 73px 0 30px;
+	text-align: center;
+}
+
+header .logo{
+	background: url(images/tinkerbox_badge_blue.png) center 0 no-repeat;
+	background-size: 236px 181px;
+	height: 181px;
+	margin: 0 auto 26px;
+}
+
+.section-title{
+	margin: 10px 0;
+	padding-top:10px;
+}
+
+.section-files a{
+	display:block;
+	margin:5px 0;
+}
+
+.section-files .mockup{
+	background: url(images/mockup.png) center 0 no-repeat;
+	background-size: 800px 450px;
+	height: 450px;
+	
+}
+
+/* ==========================================================================
+  	3. Style for dashboard 
+   ========================================================================== */
+
+/* 3.1 Background color*/
+.section-dashboard .db-color{
+	color: white;
+	width: 300px;
+	height: 50px;
+	margin-left:200px;
+	background: #0a3059;
+}
+
+/* 3.2 Color of text/icon/divider*/
+
+/* General card styling*/
+.color-card{
+	 position: relative;
+	 width:212px;
+	 height:80px;
+	 margin:10px;
+}
+.color-card-left{
+	width:100px;
+	height:80px;
+	float:left;
+	text-align:center;
+}
+.color-card-right{
+	width:112px;
+	height:80px;
+	float:right;
+	text-align:center;
+	font-size:48px;
+	font-weight: 700;
+}
+.color-card .divider{
+	position:absolute;
+	float:left;
+	height:80px;
+	left:100px;
+	top:0;
+	box-shadow: 0px 0px 2px 0px rgba(255,255,255,0.3);
+	z-index: 372;
+}
+
+.service-header{
+	padding:7px;
+}
+.service-header .icon-service{
+	width:50px;
+	height:40px;
+	margin:3px auto;
+	display: block;
+}
+
+/* Card's background color*/
+.red-card{
+	background-color: #cc5649;
+}
+.green-card{
+	background-color:#3ccd85;
+}
+.yellow-card{
+	background-color:#e6cd43;
+}
+
+ /* Text's color on the right half of card */
+.red-card .color-card-right{
+	color:#80362e;
+}
+.green-card .color-card-right{
+	color:#258052;
+}
+.yellow-card .color-card-right{
+	color:#807225;
+}
+
+
+/* Icon's color on the left half of card */
+.svg-red{
+	fill:#a6463c;
+}
+.svg-green{
+	fill:#2c9963;
+}
+.svg-yellow{
+	fill:#a69430;
+}
+
+
+/* Small text's color on the left half of card */
+small{
+	font-size:12px;
+	display: block;
+	
+}
+.red-card small{
+	color:#a6463c;
+}
+
+.green-card small{
+	color:#2c9963;
+}
+.yellow-card small{
+	color:#a69430;
+}
+
+
+/* Divider style */
+.red-card .divider{
+	border-left:1px solid #994137;
+}
+
+.green-card .divider{
+	border-left:1px solid #2c9963;
+}
+.yellow-card .divider{
+	border-left:1px solid #b29f34;
+}
+
+
+/* 
+ Github card (main card with project name)
+ */
+.main-card{
+	position: relative;
+	 width:434px;
+	 height:294px;
+	 margin:10px;
+}
+.color-card-top{
+	width:434px;
+	height:106px;
+	text-align:center;
+	background-color: #12b0c5;
+}
+.color-card-bottom{
+	width:434px;
+	height:188px;
+	text-align:center;
+	background-color: #ebebeb;
+
+}
+.icon-service-github{
+	width:65px;
+	height:65px;
+	margin:10px auto;
+	display: block;
+}
+.svg-blue{
+	fill:#0b7280;
+}
+.main-card .divider{
+	border-bottom:1px solid #0e8d9e;
+	position:absolute;
+	width:434px;
+	top:106px;
+	box-shadow: 0px 0px 2px 1px rgba(255,255,255,0.3);
+	z-index: 372;
+}
+
+.main-card .round-box{
+	position:absolute;
+	top:93px;
+	left:178px;
+	border:1px solid #0b7280;
+	padding:0.2px 15px; 
+	background:#ebebeb;
+	width:75;
+	border-radius:10px;
+	z-index:999;
+
+	font-size:14px;
+	color:#0b7280;
+
+}
+
+.color-card-bottom .prj-name{
+	font-size:48px;
+	font-weight: 700;
+	color:#404e5c;
+}
+.prj-last-update{
+	display: block;
+	background: url(images/icn-clock.svg);
+	background-position: 160px;
+	background-repeat: no-repeat;
+	background-size: 30px 30px;
+	padding-left:40px;
+	color:#737780;
+	font-weight: 700;
+	line-height: 1.3;
+}
+.prj-msg{
+	font-size:16px;
+	color: #737780;
+	margin:10px auto;
+}
+.prj-person{
+	font-size:14px;
+	color: #737780;
+	font-style: italic;
+ 	
+}
+
+
+/* ==========================================================================
+  	4. Style for activity stream 
+   ========================================================================== */
+
+/* 4.1 Background color*/
+.section-stream .as-color{
+	color: white;
+	width: 300px;
+	height: 50px;
+	margin-left:200px;
+	background: #08294d;
+}
+
+/* 4.2 Color of text/icon/divider*/
+.activity-stream{
+	 position: relative;
+	 width:354px;
+	 height:360px;
+	 margin:10px;
+	 background: #08294d;
+}
+.activity-stream-top{
+	width:354px;
+	height:58px;
+	
+	text-align:center;
+}
+.activity-stream-bottom{
+	width:354px;
+	height:212px;
+	text-align:center;
+
+}
+.activity-stream .divider{
+	border-bottom:1px solid #051b33;
+	position:absolute;
+	width:354px;
+	top:58px;
+	box-shadow: 0px 0px 2px 0px rgba(255,255,255,0.15);
+	z-index: 372;
+}
+
+.activity-stream .circle{
+	background: #0a3059;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position:absolute;
+    left:147px;
+    top:28px;
+    box-shadow: inset 0 0 3px #000000, 0px 0px 2px 0px rgba(255,255,255,0.15);
+    z-index:999;
+
+}
+
+.activity-stream .icon-github{
+	position:absolute;
+	left:0px;
+	top:38px;
+	z-index:9999;
+	height:40px;
+}
+
+.activity-stream .icon-github .icon-github-fill{
+	fill: #051b33;
+}
+
+.activity-stream .content ul{
+	list-style-type: none;
+	padding: 10px;
+
+
+}
+
+.activity-stream .content li{
+	line-height: 70px;
+	padding: 3px 0;
+	border-bottom: 1px solid #051b33;
+	display:inline-block;
+}
+
+.activity-stream .content li img{
+	float:left;
+	padding:5px 0 0 10px;
+}
+
+.activity-stream .content li .lst-text{
+	float:left;
+	/*background:red;*/
+	width:273px;
+	margin-left:10px;
+}
+
+.lst-text .username{
+	color:#0e4580;
+	font-size:14px;
+	line-height: 1;
+	float: left;
+	font-weight:700;
+}
+
+.lst-text .project-name{
+	color:#803a32;
+	font-size:14px;
+	line-height: 1;
+	float: right;
+	display:inline-block;
+}
+
+.lst-text .update-msg{
+	color:#6e8197;
+	font-size:14px;
+	line-height: 1.143;
+	margin:5px 0;
+	float:left;
+	text-align:left;
+}
+
+.lst-text .update-time{
+	color:#0e4580;
+	font-size:12px;
+	line-height: 1;
+	float:right;
+}
+
+
+
+/* ==========================================================================
+  	Footer
+   ========================================================================== */
+
+   footer{
+   	border-top:1px dashed #34495e;
+   	margin:100px auto;
+   	text-align: center;
+
+   }
+
+   footer .note{
+   	font-size:72px;
+   	font-weight: 700;
+   }
+
+
